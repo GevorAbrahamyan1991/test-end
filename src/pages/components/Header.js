@@ -13,6 +13,9 @@ export default function Header() {
         <li>
           <Link to="/news">News</Link>
         </li>
+        <li>
+          <Link to="/drum-kit">Drum Kit</Link>
+        </li>
       </ul>
     </div>
   );
