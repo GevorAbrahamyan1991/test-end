@@ -1,13 +1,11 @@
 import React from "react";
-import boom from "../../assets/audio/boom.wav";
-import clap from "../../assets/audio/clap.wav";
-import hihat from "../../assets/audio/hihat.wav";
-import kick from "../../assets/audio/kick.wav";
-import openhat from "../../assets/audio/openhat.wav";
-import ride from "../../assets/audio/ride.wav";
-import snare from "../../assets/audio/snare.wav";
-import tink from "../../assets/audio/tink.wav";
-import tom from "../../assets/audio/tom.wav";
+import notyDo from "../../assets/audio/noty-do.mp4";
+import re from "../../assets/audio/re.mp3";
+import mi from "../../assets/audio/mi.mp3";
+import fa from "../../assets/audio/fa.mp3";
+import sol from "../../assets/audio/sol.mp3";
+import lja from "../../assets/audio/lja.mp3";
+import si from "../../assets/audio/si.mp3";
 
 const DrumKit = () => {
   function playSound(e) {
@@ -39,93 +37,87 @@ const DrumKit = () => {
             data-key="65"
             className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
           >
-            <kbd className="mb-4 text-orange-600">A</kbd>
+            <kbd className="mb-4 text-orange-600 block text-4xl font-bold">
+              A
+            </kbd>
             <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              clap
+              DO
             </span>
           </div>
           <div
             data-key="83"
             className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
           >
-            <kbd className="mb-4 text-orange-600">S</kbd>
+            <kbd className="mb-4 text-orange-600 block text-4xl font-bold">
+              S
+            </kbd>
             <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              hihat
+              RE
             </span>
           </div>
           <div
             data-key="68"
             className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
           >
-            <kbd className="mb-4 text-orange-600">D</kbd>
+            <kbd className="mb-4 text-orange-600 block text-4xl font-bold">
+              D
+            </kbd>
             <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              kick
+              MI
             </span>
           </div>
           <div
             data-key="70"
             className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
           >
-            <kbd className="mb-4 text-orange-600">F</kbd>
+            <kbd className="mb-4 text-orange-600 block text-4xl font-bold">
+              F
+            </kbd>
             <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              openhat
+              FA
             </span>
           </div>
           <div
             data-key="71"
             className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
           >
-            <kbd className="mb-4 text-orange-600">G</kbd>
+            <kbd className="mb-4 text-orange-600 block text-4xl font-bold">
+              G
+            </kbd>
             <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              boom
+              SOL
             </span>
           </div>
           <div
             data-key="72"
             className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
           >
-            <kbd className="mb-4 text-orange-600">H</kbd>
+            <kbd className="mb-4 text-orange-600 block text-4xl font-bold">
+              H
+            </kbd>
             <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              ride
+              LJA
             </span>
           </div>
           <div
             data-key="74"
             className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
           >
-            <kbd className="mb-4 text-orange-600">J</kbd>
+            <kbd className="mb-4 text-orange-600 block text-4xl font-bold">
+              J
+            </kbd>
             <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              snare
-            </span>
-          </div>
-          <div
-            data-key="75"
-            className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
-          >
-            <kbd className="mb-4 text-orange-600">K</kbd>
-            <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              tom
-            </span>
-          </div>
-          <div
-            data-key="76"
-            className="key border-4 border-black rounded-lg m-4 text-2xl py-4 px-2 transition-all duration-150 w-40 text-center text-white bg-opacity-40 text-shadow-sm"
-          >
-            <kbd className="mb-4 text-orange-600">L</kbd>
-            <span className="text-2xl uppercase tracking-wide text-yellow-500">
-              tink
+              SI
             </span>
           </div>
         </div>
-        <audio data-key="65" src={boom}></audio>
-        <audio data-key="83" src={clap}></audio>
-        <audio data-key="68" src={hihat}></audio>
-        <audio data-key="70" src={kick}></audio>
-        <audio data-key="71" src={openhat}></audio>
-        <audio data-key="72" src={ride}></audio>
-        <audio data-key="74" src={snare}></audio>
-        <audio data-key="75" src={tink}></audio>
-        <audio data-key="76" src={tom}></audio>
+        <audio data-key="65" src={notyDo}></audio>
+        <audio data-key="83" src={re}></audio>
+        <audio data-key="68" src={mi}></audio>
+        <audio data-key="70" src={fa}></audio>
+        <audio data-key="71" src={sol}></audio>
+        <audio data-key="72" src={lja}></audio>
+        <audio data-key="74" src={si}></audio>
       </div>
     </>
   );
