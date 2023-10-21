@@ -1,9 +1,14 @@
 import React from 'react'
-
-const Home = () => {
-  return (
-    <div>Home</div>
+import StandartContainer from "./components/StandartContainer"
+import Title from "./components/Title"
+export default function Home ()  {
+  
+  const data = (
+    <>
+      <Title title="Home" />
+    </>
   )
-}
 
-export default Home
+  return  <StandartContainer data={data} />
+  
+}
