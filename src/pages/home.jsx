@@ -10,23 +10,8 @@ export default function Home ()  {
     {key:"name", label: "Name"},
     {key:"last_name", label: "LastName"},
   ]
-  // const pageData = [
-  //   {
-  //     id:1,
-  //     name:'Poxos',
-  //     last_name:"Poxosyan"
-  //   },
-  //   {
-  //     id:2,
-  //     name:'Petros',
-  //     last_name:"Petrosyan"
-  //   },
-  //   {
-  //     id:3,
-  //     name:'Martiros',
-  //     last_name:"Martirosyan"
-  //   }
-  // ]
+  
+  
 
   const data = (
     <>
