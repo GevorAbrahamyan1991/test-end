@@ -1,3 +1,5 @@
+import ModalBtn from "../components/modalBtn";
+
 export const pageData = [
   {
     id: 1,
@@ -6,6 +8,7 @@ export const pageData = [
     email: "rdietzler0@newsvine.com",
     gender: "Female",
     image: "http://dummyimage.com/194x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 2,
@@ -14,6 +17,7 @@ export const pageData = [
     email: "rstedmond1@kickstarter.com",
     gender: "Male",
     image: "http://dummyimage.com/221x100.png/dddddd/000000",
+    info: <ModalBtn />,
   },
   {
     id: 3,
@@ -22,6 +26,7 @@ export const pageData = [
     email: "tdeeks2@typepad.com",
     gender: "Genderqueer",
     image: "http://dummyimage.com/164x100.png/5fa2dd/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 4,
@@ -30,6 +35,7 @@ export const pageData = [
     email: "cspeere3@newsvine.com",
     gender: "Male",
     image: "http://dummyimage.com/231x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 5,
@@ -38,6 +44,7 @@ export const pageData = [
     email: "tklimontovich4@businesswire.com",
     gender: "Female",
     image: "http://dummyimage.com/186x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 6,
@@ -46,6 +53,7 @@ export const pageData = [
     email: "edinse5@issuu.com",
     gender: "Female",
     image: "http://dummyimage.com/124x100.png/5fa2dd/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 7,
@@ -54,6 +62,7 @@ export const pageData = [
     email: "yludgrove6@ifeng.com",
     gender: "Male",
     image: "http://dummyimage.com/240x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 8,
@@ -62,6 +71,7 @@ export const pageData = [
     email: "fholligan7@buzzfeed.com",
     gender: "Male",
     image: "http://dummyimage.com/147x100.png/ff4444/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 9,
@@ -70,6 +80,7 @@ export const pageData = [
     email: "kbuckbee8@economist.com",
     gender: "Female",
     image: "http://dummyimage.com/135x100.png/dddddd/000000",
+    info: <ModalBtn />,
   },
   {
     id: 10,
@@ -78,6 +89,7 @@ export const pageData = [
     email: "maudley9@simplemachines.org",
     gender: "Female",
     image: "http://dummyimage.com/196x100.png/ff4444/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 11,
@@ -86,6 +98,7 @@ export const pageData = [
     email: "mspellwarda@google.es",
     gender: "Female",
     image: "http://dummyimage.com/212x100.png/5fa2dd/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 12,
@@ -94,6 +107,7 @@ export const pageData = [
     email: "chafnerb@tiny.cc",
     gender: "Female",
     image: "http://dummyimage.com/243x100.png/ff4444/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 13,
@@ -102,6 +116,7 @@ export const pageData = [
     email: "mbutlandc@mayoclinic.com",
     gender: "Male",
     image: "http://dummyimage.com/157x100.png/5fa2dd/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 14,
@@ -110,6 +125,7 @@ export const pageData = [
     email: "lmatokhnind@instagram.com",
     gender: "Male",
     image: "http://dummyimage.com/177x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 15,
@@ -118,6 +134,7 @@ export const pageData = [
     email: "tdaulbye@microsoft.com",
     gender: "Female",
     image: "http://dummyimage.com/219x100.png/5fa2dd/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 16,
@@ -126,6 +143,7 @@ export const pageData = [
     email: "bwinhamf@nydailynews.com",
     gender: "Female",
     image: "http://dummyimage.com/196x100.png/dddddd/000000",
+    info: <ModalBtn />,
   },
   {
     id: 17,
@@ -134,6 +152,7 @@ export const pageData = [
     email: "kcarbing@storify.com",
     gender: "Male",
     image: "http://dummyimage.com/161x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 18,
@@ -142,6 +161,7 @@ export const pageData = [
     email: "mvandenhofh@si.edu",
     gender: "Male",
     image: "http://dummyimage.com/162x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 19,
@@ -150,6 +170,7 @@ export const pageData = [
     email: "jlabrenzi@statcounter.com",
     gender: "Female",
     image: "http://dummyimage.com/118x100.png/cc0000/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 20,
@@ -158,6 +179,7 @@ export const pageData = [
     email: "menglishbyj@yahoo.com",
     gender: "Female",
     image: "http://dummyimage.com/155x100.png/dddddd/000000",
+    info: <ModalBtn />,
   },
   {
     id: 21,
@@ -166,6 +188,7 @@ export const pageData = [
     email: "treilingenk@who.int",
     gender: "Female",
     image: "http://dummyimage.com/167x100.png/ff4444/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 22,
@@ -174,6 +197,7 @@ export const pageData = [
     email: "feggletonl@scribd.com",
     gender: "Female",
     image: "http://dummyimage.com/123x100.png/ff4444/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 23,
@@ -182,6 +206,7 @@ export const pageData = [
     email: "tboyackm@geocities.com",
     gender: "Male",
     image: "http://dummyimage.com/127x100.png/dddddd/000000",
+    info: <ModalBtn />,
   },
   {
     id: 24,
@@ -190,6 +215,7 @@ export const pageData = [
     email: "gcastrillon@npr.org",
     gender: "Male",
     image: "http://dummyimage.com/242x100.png/5fa2dd/ffffff",
+    info: <ModalBtn />,
   },
   {
     id: 25,
@@ -198,5 +224,6 @@ export const pageData = [
     email: "gheywardo@google.ru",
     gender: "Male",
     image: "http://dummyimage.com/115x100.png/dddddd/000000",
+    info: <ModalBtn />,
   },
 ];
