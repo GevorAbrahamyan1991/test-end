@@ -24,7 +24,9 @@ export default function Table({ tableColumns, contents }) {
                   return (
                     <td key={content.key} className="px-3 py-3">
                       {content.link ? (
-                        <Link to={content.href}>{item[content.key]}</Link>
+                        <Link to={content.href + "/" + item.id}>
+                          {item[content.key]}
+                        </Link>
                       ) : (
                         item[content.key]
                       )}
