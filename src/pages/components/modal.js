@@ -6,8 +6,8 @@ const Modal = ({ active, setActive, children }) => {
       <div
         className={
           active
-            ? "w-[100vw] h-[100vh] bg-gray-900 scale-100 bg-opacity-50 fixed top-0 left-0 flex items-center justify-center transition-all duration-300"
-            : "w-[100vw] h-[100vh] bg-gray-900 opacity-0 pointer-events-none bg-opacity-50 fixed top-0 left-0 flex items-center justify-center transition-all duration-300"
+            ? "w-[100vw] h-[100vh] bg-gray-900 scale-100 bg-opacity-60 fixed top-0 left-0 flex items-center justify-center transition-all duration-300"
+            : "w-[100vw] h-[100vh] bg-gray-900 opacity-0 pointer-events-none bg-opacity-60 fixed top-0 left-0 flex items-center justify-center transition-all duration-300"
         }
         onClick={() => setActive(false)}
       >

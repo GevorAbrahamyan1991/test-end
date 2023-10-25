@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import StandartContainer from "./StandartContainer";
+import ModalBtn from "./modalBtn";
 
 export default function Table({ tableColumns, contents }) {
   return (
@@ -33,6 +34,9 @@ export default function Table({ tableColumns, contents }) {
                     </td>
                   );
                 })}
+                <td>
+                  <ModalBtn data={item} />
+                </td>
               </tr>
             );
           })}

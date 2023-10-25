@@ -8,14 +8,7 @@ export default function Home() {
     { key: "id", label: "ID", link: true, href: "about" },
     { key: "first_name", label: "Name" },
     { key: "last_name", label: "LastName" },
-    { key: "info", label: "Info" },
   ];
-
-  // const modalColumns = [
-  //   {
-      
-  //   }
-  // ]
 
   const data = (
     <>
