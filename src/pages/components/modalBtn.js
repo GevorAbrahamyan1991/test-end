@@ -15,17 +15,20 @@ const ModalBtn = ({ data }) => {
       </button>
 
       <Modal active={modalActive} setActive={setModalActive}>
-        <div className="space-y-5">
-          <div>
-            <p>
-              <span className="font-bold">Name:</span> {data.first_name}
-            </p>
-            <p>
-              <span className="font-bold">Last Name:</span> {data.last_name}
-            </p>
-            <p>
-              <span className="font-bold">Email:</span> {data.email}
-            </p>
+        <div className="">
+          <div className="flex justify-evenly py-5">
+            <div>
+              <p className="font-bold">NAME:</p>
+              <p>{data.first_name}</p>
+            </div>
+            <div>
+              <p className="font-bold">Email:</p>
+              <p>{data.email}</p>
+            </div>
+            <div>
+              <p className="font-bold">Last Name:</p>
+              <p>{data.last_name}</p>
+            </div>
           </div>
           <div>
             <Link to={`about/${data.id}`}>

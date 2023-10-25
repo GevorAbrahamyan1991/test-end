@@ -12,24 +12,34 @@ const About = () => {
   const data = (
     <>
       <Title title={`Single ${id}`} />
-      <div className="">
-        <div className="flex flex-col items-center">
+      <div className="py-5">
+        <div className="flex justify-evenly text-center">
           <div>
-            <span className="font-bold">ID:</span> {newData[0].id}
+            <p className="font-bold">ID:</p> 
+            <p>{newData[0].id}</p>
           </div>
           <div>
-            <span className="font-bold">Name:</span> {newData[0].first_name}
+            <p className="font-bold">Name:</p> 
+            <p>{newData[0].first_name}</p>
           </div>
           <div>
-            <span className="font-bold">Last:</span> Name {newData[0].last_name}
+            <p className="font-bold">Last Name:</p>
+            <p>{newData[0].last_name}</p>
           </div>
           <div>
-            <span className="font-bold">Email:</span> {newData[0].email}
+            <p className="font-bold">Email:</p> 
+            <p>{newData[0].email}</p>
           </div>
           <div>
-            <span className="font-bold">Gender:</span> {newData[0].gender}
+            <p className="font-bold">Gender:</p> 
+            <p>{newData[0].gender}</p>
           </div>
+          <div>
+            <p className="font-bold">
+              Image:
+            </p>
           <img src={newData[0].image} alt="" />
+          </div>
         </div>
       </div>
     </>
