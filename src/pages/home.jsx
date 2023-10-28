@@ -8,20 +8,18 @@ export default function Home() {
     { key: "id", label: "ID", link: true, href: "about" },
     { key: "first_name", label: "Name" },
     { key: "last_name", label: "LastName" },
-    { key: "last_name", label: "LastName" },
   ];
   const columnsModal = [
     { key: "id", label: "ID", link: true, href: "about" },
     { key: "first_name", label: "Name" },
     { key: "last_name", label: "LastName" },
-    { key: "mojoj1", label: "LastName" },
-    { key: "mojoj2", label: "LastName" },
+    { key: "email", label: "Email" },
   ];
 
   const data = (
     <>
       <Title title="Home" />
-      <Table tableColumns={columns}  contents={pageData} data={pageData}  />
+      <Table tableColumns={columns} contents={pageData} data={columnsModal} />
     </>
   );
 

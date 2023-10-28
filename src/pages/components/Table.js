@@ -35,7 +35,7 @@ export default function Table({ tableColumns, contents, data }) {
                   );
                 })}
                 <td>
-                  <ModalBtn data={data[index]} />
+                  <ModalBtn columnsModal={data} data={item} />
                 </td>
               </tr>
             );

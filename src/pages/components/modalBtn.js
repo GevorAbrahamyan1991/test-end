@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Modal from "./modal";
 import { Link } from "react-router-dom";
 
-const ModalBtn = ({ data }) => {
+const ModalBtn = ({ data, columnsModal }) => {
   const [modalActive, setModalActive] = useState();
 
   const renderData = () => {
@@ -10,10 +10,10 @@ const ModalBtn = ({ data }) => {
       return <p>No data available</p>;
     }
 
-    return Object.keys(data).map((key, index) => (
+    return columnsModal.map((column, index) => (
       <div key={index}>
-        <p className="font-bold">{key}:</p>
-        <p>{data[key]}</p>
+        <p className="font-bold">{column.label}:</p>
+        <p>{data[column.key]}</p>
       </div>
     ));
   };
@@ -41,10 +41,10 @@ const ModalBtn = ({ data }) => {
               <p className="font-bold">Last Name:</p>
               <p>{data.last_name}</p>
             </div>*/}
+            {renderData()}
           </div>
-          {renderData()}
           <div>
-            <Link to={``}>
+            <Link to={`about/${data.id}`}>
               <button className="px-5 py-2 font-bold text-white bg-blue-500 rounded-lg">
                 SEE MORE DETAILS
               </button>
