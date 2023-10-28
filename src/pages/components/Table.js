@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 import StandartContainer from "./StandartContainer";
+import ModalBtn from "./modalBtn";
 
 export default function Table({ tableColumns, contents }) {
   return (
     <div className="container mx-auto mt-12 bg-slate-300">
-      <table className="w-full">
+      <table className="w-full text-center">
         <thead>
           <tr>
             {tableColumns.map((item, index) => {
               return (
-                <th key={index} scope="col" className="px-6 py-3">
+                <th key={index} scope="col" className="px-6 py-3 text-xl">
                   {item.label}
                 </th>
               );
@@ -33,6 +34,9 @@ export default function Table({ tableColumns, contents }) {
                     </td>
                   );
                 })}
+                <td>
+                  <ModalBtn data={item} />
+                </td>
               </tr>
             );
           })}

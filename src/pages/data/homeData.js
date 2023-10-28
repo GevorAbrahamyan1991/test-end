@@ -1,3 +1,5 @@
+import ModalBtn from "../components/modalBtn";
+
 export const pageData = [
   {
     id: 1,
