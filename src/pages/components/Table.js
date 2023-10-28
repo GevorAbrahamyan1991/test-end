@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import StandartContainer from "./StandartContainer";
 import ModalBtn from "./modalBtn";
 
-export default function Table({ tableColumns, contents }) {
+export default function Table({ tableColumns, contents, data }) {
   return (
     <div className="container mx-auto mt-12 bg-slate-300">
       <table className="w-full text-center">
@@ -35,7 +35,7 @@ export default function Table({ tableColumns, contents }) {
                   );
                 })}
                 <td>
-                  <ModalBtn data={item} />
+                  <ModalBtn data={data[index]} />
                 </td>
               </tr>
             );
